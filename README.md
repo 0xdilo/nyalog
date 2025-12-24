@@ -29,6 +29,12 @@ a smol keylogger for linux :3
 
 ## install
 
+from git:
+```bash
+cargo install --git https://github.com/0xdilo/nyalog
+```
+
+or build locally:
 ```bash
 cargo build --release
 sudo cp target/release/nyalog /usr/local/bin/
